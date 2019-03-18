@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenu">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="242dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_mainmenu_1" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPendidikan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_books"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonMosque"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonMosque"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonMosque" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMosque"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_mosque"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageButton
+        android:id="@+id/imageButtonTsunami"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_tsunami"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonMosque"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonMosque"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonMosque" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDisabilitas"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_wheelchair"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonPanti"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonPanti"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonPanti" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPanti"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_team"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMosque" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHadiah"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_gift"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonPanti"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonPanti"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonPanti" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHewan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_dog"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonSarana"
+        app:layout_constraintEnd_toStartOf="@+id/imageButtonSarana"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonSarana" />
+
+    <ImageButton
+        android:id="@+id/imageButtonSarana"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_school"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonPanti" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLain"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/ic_mainmenu_other"
+        app:layout_constraintBottom_toBottomOf="@+id/imageButtonSarana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButtonSarana"
+        app:layout_constraintTop_toTopOf="@+id/imageButtonSarana" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Pendidikan"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonPendidikan"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonPendidikan"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonPendidikan" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Tempat Ibadah"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonMosque"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonMosque"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonMosque" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Bencana Alam"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonTsunami"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonTsunami"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonTsunami" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Disabilitas"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonDisabilitas"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonDisabilitas"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonDisabilitas" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Panti Asuhan"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonPanti"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonPanti"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonPanti" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hadiah"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonHadiah"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonHadiah"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonHadiah" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hewan"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonHewan"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonHewan"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonHewan" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sarana dan Fasilitas"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonSarana"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonSarana"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonSarana" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Lainnya"
+        app:layout_constraintEnd_toEndOf="@+id/imageButtonLain"
+        app:layout_constraintStart_toStartOf="@+id/imageButtonLain"
+        app:layout_constraintTop_toBottomOf="@+id/imageButtonLain" />
+
+
+</android.support.constraint.ConstraintLayout>

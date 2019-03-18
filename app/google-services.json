@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "640007118092",
+    "firebase_url": "https://siberkah-f32f8.firebaseio.com",
+    "project_id": "siberkah-f32f8",
+    "storage_bucket": "siberkah-f32f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640007118092:android:d119515373cf3e5f",
+        "android_client_info": {
+          "package_name": "org.d3ifcool.siberkah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640007118092-nk3ejas25gmqotcrbbfbplguqut5dr5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifcool.siberkah",
+            "certificate_hash": "907ff0c77e58a035085aff40a1e9813e0133a1a3"
+          }
+        },
+        {
+          "client_id": "640007118092-no6rcpjo94f4fif31c9trcdoucnvjbam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0BHmKzYgIi1GeLjDoxzCEUiDi1vmlY0o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640007118092-no6rcpjo94f4fif31c9trcdoucnvjbam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
